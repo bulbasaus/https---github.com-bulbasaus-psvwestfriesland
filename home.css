@@ -1,0 +1,122 @@
+
+
+
+*{
+  list-style: none;
+  text-decoration: none;
+
+  font-family: 'Merriweather', serif;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #f5f6fa;
+  max-width: 50%;
+  float:right;
+  margin-right: 25%;
+  word-wrap: break-word;
+  
+  
+ 
+}
+
+
+
+
+
+
+.wrapper .sidebar{
+  background: #302722;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 290px;
+  height: 100%;
+  padding: 10px 0;
+  transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile img{
+  display: block;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: transparent;
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+.wrapper .sidebar ul li a{
+  display: block;
+  padding: 7px 30px;
+  margin: left 20%;
+  color:#d1bbaa;
+  font-size: 16px;
+  position: relative;
+  font-family: 'EB Garamond', serif;
+}
+
+.wrapper .sidebar ul li a .icon{
+  color: #dee4ec;
+  width: 20px;
+  display: inline-block;
+  margin-left: 20%;
+  font-family: 'EB Garamond', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background: #302722; 
+    font-family: 'Noto Serif';
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #d1bbaa;
+}
+
+.h1{
+      box-sizing: border-box;
+      display: block;
+      font-family: 'Noto Serif', serif;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.75;
+      color:s#d1bbaa;
+      
+  }
+
+element.style{
+  color:#b2601e;
+}
+
+
+
+
