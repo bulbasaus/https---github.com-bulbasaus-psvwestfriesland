@@ -1,13 +1,11 @@
 
 *{
- 
-
-
   font-family: 'Noto Serif';
-  
 }
 ul li {
-  list-style-type: none;}
+  list-style-type: none;
+
+}
 
 ul li a {
   text-decoration: none;
@@ -58,10 +56,8 @@ html {
   display: inline-block;
   margin-left: 20%;
   font-family: 'Noto Serif';
-  list-style: none;
+
 }
-
-
 
 
 
@@ -108,7 +104,7 @@ section.h1 h1{
   font-size: 18px;
   padding-bottom: 40px;
   font-weight: 100;
-  margin-left: 40px;
+  margin-right: 5px;
 }
 
 section.accommodatie{
@@ -118,8 +114,25 @@ section.accommodatie{
 
 
 .accommodatie-list li {
- 
+  font-size: 18px;
   position: relative;
-  padding-left: 40px;
+  padding-left: 0px;
   margin-bottom: 10px;
 }
+
+.accommodatie-subtitle{
+  font-size: 29px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+  margin-top: 17px;
+  margin-bottom: 50px;
+  block-size: 25px;
+}
+
+.accommodatie-descriptioneen {
+  font-size: 18px;
+  margin-top: 0px;
+  font-weight: 100;
+}
+
