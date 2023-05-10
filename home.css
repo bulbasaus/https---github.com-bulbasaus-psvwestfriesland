@@ -1,32 +1,21 @@
 
-
-
 *{
-  list-style: none;
-  text-decoration: none;
+ 
 
-  font-family: 'Merriweather', serif;
+
+  font-family: 'Noto Serif';
   
+}
+ul li {
+  list-style-type: none;}
+
+ul li a {
+  text-decoration: none;
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-body{
-  background: #f5f6fa;
-  max-width: 50%;
-  float:right;
-  margin-right: 25%;
-  word-wrap: break-word;
-  
-  
- 
-}
-
-
-
-
 
 
 .wrapper .sidebar{
@@ -38,6 +27,7 @@ body{
   height: 100%;
   padding: 10px 0;
   transition: all 0.5s ease;
+  
 }
 
 .wrapper .sidebar .profile img{
@@ -46,18 +36,20 @@ body{
   height: 150px;
   margin: 0 auto;
   background-color: transparent;
-  margin-left: 20%;
+  margin-left: 36%;
   margin-top: 12%;
+  
 }
 
 .wrapper .sidebar ul li a{
   display: block;
-  padding: 7px 30px;
+  padding: 4px 30px;
   margin: left 20%;
   color:#d1bbaa;
-  font-size: 16px;
+  font-size: 17px;
   position: relative;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Noto Serif';
+  
 }
 
 .wrapper .sidebar ul li a .icon{
@@ -65,29 +57,9 @@ body{
   width: 20px;
   display: inline-block;
   margin-left: 20%;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Noto Serif';
+  list-style: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -96,27 +68,58 @@ body{
 body {
     background: #302722; 
     font-family: 'Noto Serif';
-    font-size: 1rem;
-    font-weight: 300;
     line-height: 1.75;
     color: #d1bbaa;
-}
-
-.h1{
-      box-sizing: border-box;
-      display: block;
-      font-family: 'Noto Serif', serif;
-      font-size: 1rem;
-      font-weight: 300;
-      line-height: 1.75;
-      color:s#d1bbaa;
-      
-  }
-
-element.style{
-  color:#b2601e;
+    max-width: 45%;
+    float:right;
+    margin-right: 23%;
+    word-wrap: break-word;
+    width: fit-content;
+    font-weight: 100;
+    
 }
 
 
+section.h1 h1{
+  font-size: 46px;
+  line-height: 66px;
+  width: 900x;
+  padding-top: 35px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+}
+
+.teksteronder{
+  font-size: 18px;
+  padding-bottom: 40px;
+  font-weight: 100;
+}
+
+.dikgedruktacco {
+  font-size: 40px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+}
 
 
+
+.accommodatie-list{
+  font-size: 18px;
+  padding-bottom: 40px;
+  font-weight: 100;
+  margin-left: 40px;
+}
+
+section.accommodatie{
+  margin-right: 20%;
+}
+
+
+
+.accommodatie-list li {
+ 
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
