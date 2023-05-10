@@ -171,3 +171,36 @@ section.accommodatie{
   display: inline-block;
 
 }
+
+
+.lessendik{
+  font-size: 40px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+  margin-top: 17px;
+}
+
+.section-lessen{
+  margin-top: 60px;
+  font-size: 18px;
+  padding-bottom: 40px;
+  font-weight: 100;
+
+}
+
+
+.groenbalkje {
+  
+    border: 4px dotted #396a1d; 
+    background-color: #527838; 
+    padding: 8px;
+    border-radius: 10px; 
+  
+}
+
+.groenbalkjetekst {
+  font-size: 18px;
+  color:whitesmoke;
+  font-weight: 100;
+}
