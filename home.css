@@ -121,11 +121,11 @@ section.accommodatie{
 }
 
 .accommodatie-subtitle{
-  font-size: 29px;
+  font-size: 26px;
   line-height: 66px;
   font-family: 'Roboto Slab', serif;
   font-weight: 200;
-  margin-top: 17px;
+  margin-top: 7px;
   margin-bottom: 50px;
   block-size: 25px;
 }
@@ -136,3 +136,38 @@ section.accommodatie{
   font-weight: 100;
 }
 
+.accommodatie-descriptiontwee{
+  font-size: 18px;
+  padding-bottom: 40px;
+  font-weight: 100;
+}
+
+.bestuurdik{
+  font-size: 40px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+}
+
+
+
+.section.bestuur {
+  width: 80%; 
+  margin-left: 0%;
+}
+
+
+.section.bestuur th {
+  text-align: left; 
+  padding-right: 150px; 
+  margin-left: -20px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.section.bestuur td{
+  text-align: right;
+  font-size: 18px;
+  display: inline-block;
+
+}
