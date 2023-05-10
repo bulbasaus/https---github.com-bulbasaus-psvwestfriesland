@@ -125,7 +125,7 @@ section.accommodatie{
   line-height: 66px;
   font-family: 'Roboto Slab', serif;
   font-weight: 200;
-  margin-top: 7px;
+  margin-top: 7px;                                        
   margin-bottom: 50px;
   block-size: 25px;
 }
@@ -196,6 +196,7 @@ section.accommodatie{
     background-color: #527838; 
     padding: 8px;
     border-radius: 10px; 
+    margin-top: -45px;
   
 }
 
@@ -203,4 +204,38 @@ section.accommodatie{
   font-size: 18px;
   color:whitesmoke;
   font-weight: 100;
+
 }
+
+.afsprakendik{
+  font-size: 26px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+  
+  
+}
+
+.afmeldenlessen{
+  margin-top: -20px;
+  font-size: 18px;
+  font-weight: 100
+}
+
+.lesindelingdik{
+  font-size: 26px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+}
+
+.tenzijanders{
+  margin-top: -28px;
+  font-size: 18px;
+  font-weight: 100;
+  
+}
+
+
+
+
