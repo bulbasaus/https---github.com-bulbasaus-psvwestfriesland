@@ -192,7 +192,7 @@ section.accommodatie{
 
 .groenbalkje {
   
-    border: 4px dotted #396a1d; 
+    border: 2px dashed #396a1d; 
     background-color: #527838; 
     padding: 8px;
     border-radius: 10px; 
@@ -236,6 +236,100 @@ section.accommodatie{
   
 }
 
+.dikvrijdag{
+  font-weight: 200;
+}
 
 
+.strandwandelingimg {
+  margin-top: 50px; /* Adjust the value as needed */
+}
+
+.wedstrijdendik{
+  font-size: 40px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+  margin-top: 17px;
+}
+
+.officielewedstrijden{
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.bordered td {
+  padding: 15px; 
+  border: 1px dashed #6b625d;
+  font-size: 18px;
+}
+
+.bordered {
+  width: fit-content;
+  margin: 0 auto;
+  margin-left: -2px;
+}
+
+.column-container {
+  display: flex;
+  justify-content: center;
+}
+
+.opgeven-text {
+ 
+  font-size: 18px;
+  font-weight: 100
+}
+
+.linkknhs {
+  font-size: 18px;
+  font-weight: 100;
+  color: #d1bbaa;
+}
+
+.onderlingedik{
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.opgevenvia{
+margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 100
+}
+
+.mailemma{
+  font-size: 18px;
+  font-weight: 100;
+  color: #d1bbaa;
+ margin-bottom: -12px;
+}
+
+
+.tabelonderling td {
+  padding: 2px;
+  border: 1px dashed #6b625d;
+  font-size: 18px;
+  width: 270px;
+ 
+}
+
+.tabelonderling {
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-left: -2px;
+  height: 200px;
+}
+
+.wedstrijd-info {
+  
+ 
+  font-size: 18px;
+  font-weight: 100
+}
+
+
+.sponsordik{
+  
+}
 
