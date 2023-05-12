@@ -8,108 +8,62 @@
     <title>Document</title>
 </head>
 
-
 <body>
-<script>
-
-const sections = document.querySelectorAll("section[id]");
-
-window.addEventListener("scroll", navHighlighter);
-
-function navHighlighter() {
-  
- 
-  let scrollY = window.pageYOffset;
-  
- 
-  sections.forEach(current => {
-    const sectionHeight = current.offsetHeight;
-  
-    const sectionTop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
-    sectionId = current.getAttribute("id");
-  
-    if (
-      scrollY > sectionTop &&
-      scrollY <= sectionTop + sectionHeight
-    ){
-      document.querySelector(".navigation a[href*=" + sectionId + "]").classList.add("active");
-    } else {
-      document.querySelector(".navigation a[href*=" + sectionId + "]").classList.remove("active");
-    }
-  });
-}
-
-</script>
-
   <div class="wrapper">
-    <!--Top menu -->
     <div class="sidebar">
       <div class="profile">
-         <img src="../nieuwewebsite/img/psv logo123.JPG" alt="profile_picture" style="background-color: transparent;">
-      
-    </div>
-    <ul>
-      <li>
+        <img src="../nieuwewebsite/img/psv logo123.JPG" alt="profile_picture" style="background-color: transparent;">
+      </div>
+      <ul>
+        <li>
           <a href="h1" class="active">
-              <span class="icon"><i class="fas fa-home"></i></span>
-              <span class="item">Home</span>
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="item">Home</span>
           </a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="accomodatie">
-              <span class="icon"><i class="fas fa-desktop"></i></span>
-              <span class="item">Accommodatie</span>
+            <span class="icon"><i class="fas fa-desktop"></i></span>
+            <span class="item">Accommodatie</span>
           </a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="#">
-              <span class="icon"><i class="fas fa-user-friends"></i></span>
-              <span class="item">Bestuur</span>
+            <span class="icon"><i class="fas fa-user-friends"></i></span>
+            <span class="item">Bestuur</span>
           </a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="#">
-              <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-              <span class="item">Lessen</span>
+            <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+            <span class="item">Lessen</span>
           </a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="#">
-              <span class="icon"><i class="fas fa-database"></i></span>
-              <span class="item">Wedstrijden</span>
+            <span class="icon"><i class="fas fa-database"></i></span>
+            <span class="item">Wedstrijden</span>
           </a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="#">
-              <span class="icon"><i class="fas fa-chart-line"></i></span>
-              <span class="item">Lidmaatschap</span>
+            <span class="icon"><i class="fas fa-chart-line"></i></span>
+            <span class="item">Lidmaatschap</span>
           </a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="#">
-              <span class="icon"><i class="fas fa-user-shield"></i></span>
-              <span class="item">Geschiedenis</span>
+            <span class="icon"><i class="fas fa-user-shield"></i></span>
+            <span class="item">Geschiedenis</span>
           </a>
-      </li>
-      
-  </ul>
-</div>
+        </li>
+      </ul>
     </div>
+    <div class="vertical-line" draggable="true"></div>
+  </div>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
 
 
 
@@ -356,24 +310,13 @@ function navHighlighter() {
 
       <h5 class="sponsorsdik">Sponsors</h5>
       
-
-        moet er nog in ofzo
-
+      <img class="sponsorimg" src="../nieuwewebsite/img/allesponsors.JPG">
 
 
 
-
-
-
-
-
-
-
-
-
-
-    <section class="section" id="lidmaatschap">
-      <h2>Lidmaatschap</h2>
+   
+      <h2 class="lidmaatschapdik">Lidmaatschap</h2>
+      <section class="lidmaatschaptekst" id="lidmaatschap">
       <p>
         Om lid te worden hoef je alleen maar je naam en lidmaatschaps-keuze
         te
@@ -383,10 +326,14 @@ function navHighlighter() {
       </p>
       <p>
         Voor de kosten van de startpas verwijzen wij door naar de site van
-        de <a href="https://www.knhs.nl/" target="_blank">KNHS</a>.
+        de <a href="https://www.knhs.nl/" class="knhslink2">KNHS</a>
       </p>
-      <h5>Prijzenoverzicht</h5>
-      <table class="small" style="width: 90%">
+      </section>
+
+
+
+      <h5 class="prijzenoverzichtdik">Prijzenoverzicht</h5>
+      <table class="prijzenoverzicht" style="width: 90%">
         <tbody>
           <tr>
             <td>Jeugd lessend</td>
@@ -437,6 +384,7 @@ function navHighlighter() {
           </tr>
         </tbody>
       </table>
+    </section>
       <div class="flex">
         <div><span class="ml-auto"></span></div>
       </div>
@@ -446,8 +394,8 @@ function navHighlighter() {
       </div>
     </section>
 
-    <section class="section" id="geschiedenis">
-      <h2>Geschiedenis</h2>
+    <section class="geschiedenis" id="geschiedenis">
+      <h2 class="dikgeschiedenis">Geschiedenis</h2>
       <p>
         Het begon allemaal met een bezoek van enkele oud-leden aan een
         concours hippique te Hoofddorp, toen er het idee ontstond dat zo’n
@@ -474,7 +422,7 @@ function navHighlighter() {
         Julianadorp wonnen de ruiters 12 van de 15 prijzen! De vereniging
         gaf die tijd veel demonstraties, o.a. bij landbouwdag Opmeer.
       </p>
-      <h4>Van rijtuigen naar rijpaarden</h4>
+      <h4 class="dikgeschiedenis">Van rijtuigen naar rijpaarden</h4>
       <p>
         Door de verandering op de boerenbedrijven, van paard naar trekker,
         had de vereniging het moeilijk. Maar door het toenemen van vrije
@@ -503,13 +451,7 @@ function navHighlighter() {
         de 100 jaar in 2027!
       </p>
     </section>
-  <footer class="onderkantjes">
 
-© 2022 PSV Westfriesland
-</p>
- href="https://psvwestfriesland.nl/reglement" 
- href="https://psvwestfriesland.nl/privacy"
-</footer>
 
 </main>
 </div>

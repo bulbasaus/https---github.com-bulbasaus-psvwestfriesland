@@ -1,10 +1,9 @@
-
-*{
+* {
   font-family: 'Noto Serif';
 }
+
 ul li {
   list-style-type: none;
-
 }
 
 ul li a {
@@ -15,8 +14,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
-.wrapper .sidebar{
+.wrapper .sidebar {
   background: #302722;
   position: fixed;
   top: 0;
@@ -25,10 +23,9 @@ html {
   height: 100%;
   padding: 10px 0;
   transition: all 0.5s ease;
-  
 }
 
-.wrapper .sidebar .profile img{
+.wrapper .sidebar .profile img {
   display: block;
   width: 250px;
   height: 150px;
@@ -36,28 +33,19 @@ html {
   background-color: transparent;
   margin-left: 36%;
   margin-top: 12%;
-  
 }
 
-.wrapper .sidebar ul li a{
+.wrapper .sidebar ul li a {
   display: block;
   padding: 4px 30px;
-  margin: left 20%;
-  color:#d1bbaa;
+  margin-left: 20%;
+  color: #d1bbaa;
   font-size: 17px;
   position: relative;
-  font-family: 'Noto Serif';
-  
 }
 
-.wrapper .sidebar ul li a .icon{
-  color: #dee4ec;
-  width: 20px;
-  display: inline-block;
-  margin-left: 20%;
-  font-family: 'Noto Serif';
 
-}
+
 
 
 
@@ -322,14 +310,66 @@ margin-bottom: 12px;
 }
 
 .wedstrijd-info {
-  
- 
   font-size: 18px;
   font-weight: 100
 }
 
 
-.sponsordik{
+.sponsorsdik{
+  font-size: 40px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+ 
   
 }
 
+.sponsorimg{
+  margin-top: -70px;
+  padding-bottom: 70px;
+}
+
+.lidmaatschapdik{
+  font-size: 40px;
+  line-height: 66px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+ 
+}
+
+.lidmaatschaptekst{
+  font-size: 18px;
+  font-weight: 100
+}
+
+.knhslink2{
+  font-size: 18px;
+  font-weight: 100;
+  color:#d1bbaa;
+}
+
+.prijzenoverzichtdik{
+  font-size: 25px;
+  font-weight: 200;
+  margin-top: 30px;
+  height: 16px;
+}
+
+
+.prijzenoverzicht{
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: -22x;
+}
+
+.geschiedenis{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+.dikgeschiedenis{
+  font-size: 25px;
+  font-weight: 200;
+ 
+}
