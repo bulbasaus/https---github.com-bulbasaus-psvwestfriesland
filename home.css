@@ -25,6 +25,18 @@ html {
   transition: all 0.5s ease;
 }
 
+.vertical-line {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 0px;
+  margin-left: -4%;
+  border-style: dashed;
+  border-width: 1px;
+  color: #6b625d;
+}
+
+
 .wrapper .sidebar .profile img {
   display: block;
   width: 250px;
@@ -37,30 +49,32 @@ html {
 
 .wrapper .sidebar ul li a {
   display: block;
-  padding: 4px 30px;
-  margin-left: 20%;
+  padding: 5px 70px;
+
   color: #d1bbaa;
   font-size: 17px;
   position: relative;
+  font-family: 'Noto Serif';
 }
 
-
-
-
-
+.wrapper .sidebar ul li a .icon {
+  color: #dee4ec;
+  width: 20px;
+  display: inline-block;
+  margin-left: 0;
+}
 
 body {
-    background: #302722; 
-    font-family: 'Noto Serif';
-    line-height: 1.75;
-    color: #d1bbaa;
-    max-width: 45%;
-    float:right;
-    margin-right: 23%;
-    word-wrap: break-word;
-    width: fit-content;
-    font-weight: 100;
-    
+  background: #302722;
+  font-family: 'Noto Serif';
+  line-height: 1.75;
+  color: #d1bbaa;
+  max-width: 45%;
+  float: right;
+  margin-right: 23%;
+  word-wrap: break-word;
+  width: fit-content;
+  font-weight: 100;
 }
 
 
@@ -85,7 +99,36 @@ section.h1 h1{
   font-family: 'Roboto Slab', serif;
   font-weight: 200;
 }
+.hyperlinks-row {
+  display: flex;
+  align-items: center;
+  
+}
 
+
+
+.hyperlinks-row {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-end; 
+}
+
+
+
+.hyperlinks {
+  margin-right: -90px; 
+margin-top: 200px;
+color: #6b625d !important;
+
+}
+
+.hyperlinks:hover{
+color: #d1bbaa !important;
+}
+
+.hyperlinks:last-child {
+  margin-right: 0;
+}
 
 
 .accommodatie-list{
@@ -109,7 +152,7 @@ section.accommodatie{
 }
 
 .accommodatie-subtitle{
-  font-size: 26px;
+  font-size: 22px;
   line-height: 66px;
   font-family: 'Roboto Slab', serif;
   font-weight: 200;
@@ -230,7 +273,7 @@ section.accommodatie{
 
 
 .strandwandelingimg {
-  margin-top: 50px; /* Adjust the value as needed */
+  margin-top: 50px; 
 }
 
 .wedstrijdendik{
@@ -310,6 +353,8 @@ margin-bottom: 12px;
 }
 
 .wedstrijd-info {
+  
+ 
   font-size: 18px;
   font-weight: 100
 }
